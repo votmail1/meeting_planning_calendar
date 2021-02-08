@@ -1,0 +1,181 @@
+table {
+    border-spacing: 0px;
+	font-family: "Arial", Times, serif;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+td{
+	width: 150px;
+	height: 46px;
+	border:1px solid #c7c7c7;
+}
+button {
+	background-color: #e6e6e6;
+	font-family: "Arial", Times, serif;
+	font-weight: bold;
+	font-size: 22px;
+	width: 190px;
+	height: 47px;
+	border-radius: 8px;
+	border: 2px solid #595959;
+}
+select{
+	margin-right: 21px;
+	padding-left: 8px;
+	font-family: "Arial", Times, serif;
+	font-weight: bold;
+	font-size: 19px;
+	width: 226px;
+	height: 47px;
+	border: 2px solid #595959;
+	overflow: hidden; 
+	appearance: none;
+	border-radius: 8px;
+	background: url(../img/select.png) no-repeat 68%;
+}
+textarea {
+	margin-right: 21px;
+	padding-left: 8px;
+	font-family: "Arial", Times, serif;
+	font-weight: bold;
+	font-size: 19px;
+	width: 226px;
+	height: 47px;
+	border: 2px solid #595959;
+	appearance: none;
+	border-radius: 8px;
+	background: url(../img/textarea.png) no-repeat 68%;
+	resize: none;
+	line-height: 37px;
+}
+p {
+	text-overflow: ellipsis;
+}
+.head{
+	background-color: #e6e6e6;
+	font-family: "Arial", Times, serif;
+	font-weight: bold;
+}
+.X {
+	height: 42px;
+    line-height: 44px;
+	width: 44px;
+	display: block;
+	text-align: center;
+	background-color: #daf3ba;
+	margin-left: auto;
+}
+.container {
+	width: 150px;
+	height: 42px;
+	position: absolute;
+	z-index: -999999;
+}
+.event {
+	width: 106px;    
+	display: inline-block;
+	text-align:center;
+	height: 42px;
+	background-color: #daf3ba;
+	line-height: 44px;
+	border:0px;
+	font-size: 12px;
+}
+#calendar {
+	padding-top: 65px;
+}
+#name {
+	position: absolute;
+	font-family: "Arial", Times, serif;
+	font-weight: bold;
+	font-size: 33px;
+	height: 47px;
+}
+#manager {
+	display:block;
+	width: 923px;
+	margin: auto;
+	margin-bottom: 11px;
+	text-align: right;
+}
+#name {
+	position: absolute;
+	font-family: "Arial", Times, serif;
+	font-weight: bold;
+	font-size: 33px;
+	height: 47px;
+}
+#containerName, #participants, #containerDay, #containerTime, #containerButtons {
+	line-height: 57px;
+	width: 500px;
+	font-family: "Arial", Times, serif;
+	font-weight: bold;
+	font-size: 22px;
+	margin: auto;
+	background-color: white;
+}
+#containerButtons {
+	text-align: center;
+}
+#cancelButton, #createlButton {
+	margin: 10px;
+}
+
+#textareaName, #participantsMenu, #day, #time {
+	float: right;
+}
+
+#myconfirm {
+	text-align: center;
+	width: 450px;
+    height: 240px;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+	background-color: #e6e6e6;
+	font-family: "Arial", Times, serif;
+	font-weight: bold;
+	font-size: 30px;
+	display: table;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+#yes, #no {
+	display: inline-block;
+	display: table-cell;
+	background-color: white;
+	margin: 2px;
+}
+#message {
+	line-height: 60px;
+	height: 70%;
+}
+#buttonsdiv {
+	height:30%;
+}
+#alertMessage {
+	position: absolute;
+    top: 0;
+	width: 100%;
+	background-color: #ece0de;
+	display: flex;
+}
+#redDot {
+	background: url(../img/reddot.png) no-repeat 93%;
+	width: 66px;
+	height: 66px;
+}
+#redCross {
+	background: url(../img/redcross.png) no-repeat 93%;
+	width: 66px;
+	height: 66px;
+	margin-left: auto;
+}
+#warning {
+	line-height: 3;
+    font-size: 20px;
+	color: #ff0000;
+	width:80%;
+}
